@@ -1,0 +1,41 @@
+
+/* Mobile Header */
+header {
+    background-color: white;
+    padding: 15px;
+}
+
+#isa-logo-area {
+    text-align: center;
+}
+
+#isa-logo-area img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+/* Mobile Navigation */
+#isa-main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+#isa-main-navigation li {
+    border-bottom: 1px solid #ccc;
+}
+
+#isa-main-navigation a {
+    display: block;
+    padding: 12px;
+    color: #006633;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#isa-main-navigation a:hover {
+    background-color: #006633;
+    color: white;
+}
