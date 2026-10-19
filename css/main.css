@@ -1,25 +1,58 @@
 
-/* Mobile Header */
+/* Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
 header {
     background-color: white;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #isa-logo-area {
-    text-align: center;
+    flex: 1;
+    text-align: left;
 }
 
 #isa-logo-area img {
+    display: block;
     width: 100%;
     max-width: 200px;
     height: auto;
 }
 
-/* Mobile Navigation */
+/* Navigation */
+#isa-menu-button {
+    display: block;
+    background-color: #20658c;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#isa-main-navigation {
+    display: none;
+    width: 100%;
+    background-color: #20658c;
+}
+
+#isa-main-navigation.open {
+    display: block;
+}
+
 #isa-main-navigation ul {
     list-style: none;
     padding: 0;
-    margin: 15px 0 0;
+    margin: 0;
 }
 
 #isa-main-navigation li {
@@ -28,14 +61,64 @@ header {
 
 #isa-main-navigation a {
     display: block;
-    padding: 12px;
-    color: #006633;
+    padding: 20px 25px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    text-align: center;
 }
 
 #isa-main-navigation a:hover {
-    background-color: #006633;
-    color: white;
+    background-color: #174e70;
+}
+
+
+/* Main Image */
+#isa-introduction-image {
+    text-align: center;
+}
+
+#isa-introduction-image img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 0 auto;
+}
+/* Main Content */
+#isa-introduction-text,
+#isa-services,
+#isa-about {
+    padding: 25px;
+    text-align: center;
+}
+
+#isa-introduction-text h1,
+#isa-services h2,
+#isa-about h2 {
+    color: #006633;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+#isa-contact-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#isa-footer-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#isa-copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
 }

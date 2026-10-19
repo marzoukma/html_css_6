@@ -16,7 +16,9 @@
                 <img src="images/logo.png" alt="Islamic Services of America logo" />
             </a>
         </div>
-
+<button id="isa-menu-button" type="button" aria-label="Toggle navigation" aria-controls="isa-main-navigation" aria-expanded="false">
+    ☰
+</button>
 
         <nav id="isa-main-navigation">
             <ul>
@@ -33,7 +35,7 @@
     <main>
         <section id="isa-introduction">
             <div id="isa-introduction-image">
-                <img src="images/image.png" alt="Blueberry image from Islamic Services of America" />
+               <img src="images/woman-holding-box.jpg" alt="Woman holding a halal product" />
             </div>
 
 
@@ -114,6 +116,18 @@
             Islamic Services of America Project
         </div>
     </footer>
+    <script>
+    const menuButton = document.getElementById("isa-menu-button");
+    const navigation = document.getElementById("isa-main-navigation");
+
+    menuButton.addEventListener("click", function () {
+        navigation.classList.toggle("open");
+        menuButton.setAttribute(
+            "aria-expanded",
+            navigation.classList.contains("open")
+        );
+    });
+</script>
 </body>
 
 </html>
