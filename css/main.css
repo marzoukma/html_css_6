@@ -160,3 +160,52 @@ footer {
     max-width: 150px;
     height: auto;
 }
+/* Hero / Jumbotron */
+#isa-introduction-text {
+    background: linear-gradient(to right, #006633, #008080);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#isa-introduction-text h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.isa-cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #006633;
+    padding: 12px 24px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}/* Services Section */
+#isa-services {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#isa-services-text {
+    margin-bottom: 25px;
+}
+
+#isa-services-text p,
+#isa-services-information p {
+    line-height: 1.6;
+}
+
+#isa-services-information {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#isa-services-information img {
+    display: block;
+    width: 70px;
+    height: auto;
+    margin: 0 auto 15px;
+}
