@@ -122,3 +122,41 @@ footer {
     padding-top: 15px;
     border-top: 1px solid #ccc;
 }
+
+/* Footer Columns */
+#isa-footer-information > div {
+    flex: 1 1 200px;
+}
+
+#isa-footer-information h4 {
+    color: #006633;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#isa-footer-information p {
+    line-height: 1.6;
+}
+
+#isa-footer-information ul {
+    list-style: none;
+    padding: 0;
+}
+
+#isa-footer-information li {
+    margin-bottom: 10px;
+}
+
+#isa-footer-information a {
+    color: #20658c;
+    text-decoration: none;
+}
+
+#isa-footer-information a:hover {
+    text-decoration: underline;
+}
+
+#isa-address img {
+    max-width: 150px;
+    height: auto;
+}
