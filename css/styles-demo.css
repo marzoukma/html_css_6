@@ -137,3 +137,104 @@ h6 {
         color: var(--color-accent);
     }
 /* } */
+
+
+/* Our Attorneys - Mobile */
+
+#about-us-image {
+    min-height: 250px;
+    background-image: url('../images/feature-full.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#about-us-text {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about-us-text h2 {
+    margin-bottom: 20px;
+    color: var(--color-brand);
+    font-size: 30px;
+}
+
+#about-us-text h3 {
+    color: var(--color-text);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Footer - Mobile */
+
+footer {
+    background-color: var(--color-brand);
+    color: var(--color-white);
+}
+
+#consultation {
+    padding: 45px 20px;
+    background-image: url('../images/footer-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#consultation h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#consultation h3 {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+#contact {
+    padding: 35px 20px;
+}
+
+#contact > div {
+    margin-bottom: 30px;
+}
+
+#contact h4 {
+    margin-bottom: 15px;
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+#copyright {
+    padding: 25px 20px;
+    border-top: 1px solid var(--color-border);
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#copyright a {
+    color: var(--color-white);
+}
+/* Mobile text adjustments */
+
+#about-us-text h2 {
+    font-size: 26px;
+}
+
+#about-us-text h3 {
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+#consultation h2 {
+    font-size: 26px;
+}
+
+#consultation h3 {
+    font-size: 18px;
+}
+#hero-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
