@@ -322,3 +322,11 @@ header {
         scroll-behavior: auto;
     }
 }
+/* Footer Contact Information */
+#isa-footer-contact p {
+    color: #65bd45;
+}
+
+#isa-footer-contact p:has(strong) {
+    color: white;
+}
