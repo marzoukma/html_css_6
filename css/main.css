@@ -1,10 +1,10 @@
 
+
 /* Page */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
 
 /* Header */
 header {
@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
 }
 
+/* Header Logo */
 #isa-logo-area {
     flex: 1;
     text-align: left;
@@ -71,7 +72,6 @@ header {
     background-color: #174e70;
 }
 
-
 /* Main Image */
 #isa-introduction-image {
     text-align: center;
@@ -84,6 +84,7 @@ header {
     height: auto;
     margin: 0 auto;
 }
+
 /* Main Content */
 #isa-introduction-text,
 #isa-services,
@@ -98,68 +99,6 @@ header {
     color: #006633;
 }
 
-/* Footer */
-footer {
-    background-color: #f2f2f2;
-    padding: 25px;
-}
-
-#isa-contact-section {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-#isa-footer-information {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-#isa-copyright {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 15px;
-    border-top: 1px solid #ccc;
-}
-
-/* Footer Columns */
-#isa-footer-information > div {
-    flex: 1 1 200px;
-}
-
-#isa-footer-information h4 {
-    color: #006633;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-#isa-footer-information p {
-    line-height: 1.6;
-}
-
-#isa-footer-information ul {
-    list-style: none;
-    padding: 0;
-}
-
-#isa-footer-information li {
-    margin-bottom: 10px;
-}
-
-#isa-footer-information a {
-    color: #20658c;
-    text-decoration: none;
-}
-
-#isa-footer-information a:hover {
-    text-decoration: underline;
-}
-
-#isa-address img {
-    max-width: 150px;
-    height: auto;
-}
 /* Hero / Jumbotron */
 #isa-introduction-text {
     background: linear-gradient(to right, #006633, #008080);
@@ -174,6 +113,7 @@ footer {
     margin-bottom: 15px;
 }
 
+/* Call to Action Button */
 .isa-cta-button {
     display: inline-block;
     background-color: white;
@@ -183,7 +123,9 @@ footer {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-}/* Services Section */
+}
+
+/* Services Section */
 #isa-services {
     padding: 30px 20px;
     text-align: center;
@@ -208,4 +150,175 @@ footer {
     width: 70px;
     height: auto;
     margin: 0 auto 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #303030;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#isa-footer-information {
+    padding: 20px 16px;
+}
+
+#isa-footer-about,
+#isa-footer-contact,
+#isa-footer-navigation {
+    margin-bottom: 35px;
+}
+
+/* Footer Logo */
+.isa-footer-logo {
+    display: block;
+    width: 240px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer Text */
+#isa-footer-about p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#isa-footer-information h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Footer Links */
+#isa-footer-information a {
+    color: #65bd45;
+    text-decoration: none;
+}
+
+#isa-footer-information a:hover {
+    text-decoration: underline;
+}
+
+/* Policies */
+.isa-policy-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px;
+}
+
+.isa-policy-links li {
+    margin-bottom: 7px;
+}
+
+.isa-policy-links a {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+/* Social Media */
+.isa-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.isa-social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #65b548;
+    color: #303030 !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Contact */
+#isa-footer-contact p {
+    margin: 0 0 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#isa-footer-contact p:has(strong) {
+    margin-top: 14px;
+}
+
+/* Footer Navigation */
+#isa-footer-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#isa-footer-navigation li {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Copyright */
+#isa-copyright {
+    background-color: #232323;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    background-color: #20658c;
+    color: white;
+    padding: 10px;
+    z-index: 2000;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Back to Top */
+.back-to-top {
+    display: inline-block;
+    background-color: #20658c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    background-color: #174e70;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
