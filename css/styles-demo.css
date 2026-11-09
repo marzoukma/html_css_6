@@ -370,3 +370,51 @@ footer {
     background-color: #1d3188;
     color: white;
 }
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+/* Skip to Main Content */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #1d3188;
+    color: white;
+    z-index: 1001;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: #1d3188;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
