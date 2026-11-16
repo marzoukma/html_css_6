@@ -513,3 +513,63 @@ deepskyblue;
   font-size: 16px;
   display: inline-block;
 }
+
+/* Week 9 Lab - Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--color-white);
+}
+
+/* Week 9 Lab - Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
+/* Week 9 Lab - Skip to Main Content */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 15px;
+    z-index: 2000;
+    padding: 12px 20px;
+    background-color: var(--color-brand);
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    position: fixed;
+    top: 10px;
+}
+
+/* Week 9 Lab - Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 14px 20px;
+    background-color: var(--color-brand);
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
