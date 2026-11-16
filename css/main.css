@@ -330,3 +330,19 @@ header {
 #isa-footer-contact p:has(strong) {
     color: white;
 }
+
+/* Navigation and Accessibility */
+#main-content,
+#isa-about,
+#isa-services,
+#isa-footer-navigation,
+#isa-footer-contact {
+    scroll-margin-top: 120px;
+}
+
+/* Keyboard Focus */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+}
